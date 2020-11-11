@@ -80,7 +80,7 @@ p {
 }
 
 .box p {
-  font-size: 14px;
+  /*font-size: 14px;*/
   margin: 15px 0 30px 0;
 }
 
@@ -95,4 +95,19 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/*@media screen and (min-width: 500) {
+	
+	h1 span{
+		display: block;
+	} 	
+} */
+
+
+@media only screen and (max-width: 1140px) and (min-width: 350px) {
+	
+	.box-push{
+		transform: translateY(0);
+	}
 }
